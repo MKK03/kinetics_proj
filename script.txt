@@ -11,8 +11,15 @@ improper_style harmonic
 kspace_style pppm 1e-4
 pair_style hybrid lj/cut/coul/long 10.0
 
+# 1  C
+# 2  Fe
+# 3  H
+# 4  N
+# 5  O
+# 6  S
+
 # Pair coefficients (unchanged)
-pair_coeff 3 3 lj/cut/coul/long 0.2 2.846
+pair_coeff 3 3 lj/cut/coul/long 0.5 2.846
 pair_coeff 5 5 lj/cut/coul/long 0.2  2.85
 pair_coeff 4 4 lj/cut/coul/long 0.17 3.250
 pair_coeff 1 1 lj/cut/coul/long 0.12 3.30
