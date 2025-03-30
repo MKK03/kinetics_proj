@@ -6,3 +6,5 @@ simulation_results_4/
 simulation_results_5/
 simulation_results_6/
 simulation_results_7/
+.gitignore
+fe_o_distances.csv
